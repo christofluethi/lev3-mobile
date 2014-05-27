@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3349D2F91934CCC300D14300 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3349D2F81934CCC300D14300 /* Foundation.framework */; };
+		3349D2FB1934CCC300D14300 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3349D2FA1934CCC300D14300 /* CoreGraphics.framework */; };
+		3349D2FD1934CCC300D14300 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3349D2FC1934CCC300D14300 /* UIKit.framework */; };
+		3349D3031934CCC300D14300 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3349D3011934CCC300D14300 /* InfoPlist.strings */; };
+		3349D3051934CCC300D14300 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3349D3041934CCC300D14300 /* main.m */; };
+		3349D3091934CCC300D14300 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3349D3081934CCC300D14300 /* AppDelegate.m */; };
+		3349D30C1934CCC300D14300 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3349D30A1934CCC300D14300 /* Main_iPhone.storyboard */; };
+		3349D30F1934CCC300D14300 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3349D30D1934CCC300D14300 /* Main_iPad.storyboard */; };
+		3349D3121934CCC300D14300 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3349D3111934CCC300D14300 /* ViewController.m */; };
+		3349D3141934CCC300D14300 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3349D3131934CCC300D14300 /* Images.xcassets */; };
+		3349D31B1934CCC300D14300 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3349D31A1934CCC300D14300 /* XCTest.framework */; };
+		3349D31C1934CCC300D14300 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3349D2F81934CCC300D14300 /* Foundation.framework */; };
+		3349D31D1934CCC300D14300 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3349D2FC1934CCC300D14300 /* UIKit.framework */; };
+		3349D3251934CCC300D14300 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3349D3231934CCC300D14300 /* InfoPlist.strings */; };
+		3349D3271934CCC300D14300 /* lev3_mobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3349D3261934CCC300D14300 /* lev3_mobileTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3349D31E1934CCC300D14300 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3349D2ED1934CCC300D14300 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3349D2F41934CCC300D14300;
+			remoteInfo = "lev3-mobile";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3349D2F51934CCC300D14300 /* lev3-mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lev3-mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3349D2F81934CCC300D14300 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3349D2FA1934CCC300D14300 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3349D2FC1934CCC300D14300 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3349D3001934CCC300D14300 /* lev3-mobile-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "lev3-mobile-Info.plist"; sourceTree = "<group>"; };
+		3349D3021934CCC300D14300 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3349D3041934CCC300D14300 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3349D3061934CCC300D14300 /* lev3-mobile-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "lev3-mobile-Prefix.pch"; sourceTree = "<group>"; };
+		3349D3071934CCC300D14300 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3349D3081934CCC300D14300 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3349D30B1934CCC300D14300 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		3349D30E1934CCC300D14300 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		3349D3101934CCC300D14300 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3349D3111934CCC300D14300 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3349D3131934CCC300D14300 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3349D3191934CCC300D14300 /* lev3-mobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lev3-mobileTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3349D31A1934CCC300D14300 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3349D3221934CCC300D14300 /* lev3-mobileTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "lev3-mobileTests-Info.plist"; sourceTree = "<group>"; };
+		3349D3241934CCC300D14300 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3349D3261934CCC300D14300 /* lev3_mobileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lev3_mobileTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3349D2F21934CCC300D14300 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3349D2FB1934CCC300D14300 /* CoreGraphics.framework in Frameworks */,
+				3349D2FD1934CCC300D14300 /* UIKit.framework in Frameworks */,
+				3349D2F91934CCC300D14300 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3349D3161934CCC300D14300 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3349D31B1934CCC300D14300 /* XCTest.framework in Frameworks */,
+				3349D31D1934CCC300D14300 /* UIKit.framework in Frameworks */,
+				3349D31C1934CCC300D14300 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3349D2EC1934CCC300D14300 = {
+			isa = PBXGroup;
+			children = (
+				3349D2FE1934CCC300D14300 /* lev3-mobile */,
+				3349D3201934CCC300D14300 /* lev3-mobileTests */,
+				3349D2F71934CCC300D14300 /* Frameworks */,
+				3349D2F61934CCC300D14300 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3349D2F61934CCC300D14300 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3349D2F51934CCC300D14300 /* lev3-mobile.app */,
+				3349D3191934CCC300D14300 /* lev3-mobileTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3349D2F71934CCC300D14300 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3349D2F81934CCC300D14300 /* Foundation.framework */,
+				3349D2FA1934CCC300D14300 /* CoreGraphics.framework */,
+				3349D2FC1934CCC300D14300 /* UIKit.framework */,
+				3349D31A1934CCC300D14300 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3349D2FE1934CCC300D14300 /* lev3-mobile */ = {
+			isa = PBXGroup;
+			children = (
+				3349D3071934CCC300D14300 /* AppDelegate.h */,
+				3349D3081934CCC300D14300 /* AppDelegate.m */,
+				3349D30A1934CCC300D14300 /* Main_iPhone.storyboard */,
+				3349D30D1934CCC300D14300 /* Main_iPad.storyboard */,
+				3349D3101934CCC300D14300 /* ViewController.h */,
+				3349D3111934CCC300D14300 /* ViewController.m */,
+				3349D3131934CCC300D14300 /* Images.xcassets */,
+				3349D2FF1934CCC300D14300 /* Supporting Files */,
+			);
+			path = "lev3-mobile";
+			sourceTree = "<group>";
+		};
+		3349D2FF1934CCC300D14300 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3349D3001934CCC300D14300 /* lev3-mobile-Info.plist */,
+				3349D3011934CCC300D14300 /* InfoPlist.strings */,
+				3349D3041934CCC300D14300 /* main.m */,
+				3349D3061934CCC300D14300 /* lev3-mobile-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3349D3201934CCC300D14300 /* lev3-mobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				3349D3261934CCC300D14300 /* lev3_mobileTests.m */,
+				3349D3211934CCC300D14300 /* Supporting Files */,
+			);
+			path = "lev3-mobileTests";
+			sourceTree = "<group>";
+		};
+		3349D3211934CCC300D14300 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3349D3221934CCC300D14300 /* lev3-mobileTests-Info.plist */,
+				3349D3231934CCC300D14300 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3349D2F41934CCC300D14300 /* lev3-mobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3349D32A1934CCC300D14300 /* Build configuration list for PBXNativeTarget "lev3-mobile" */;
+			buildPhases = (
+				3349D2F11934CCC300D14300 /* Sources */,
+				3349D2F21934CCC300D14300 /* Frameworks */,
+				3349D2F31934CCC300D14300 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "lev3-mobile";
+			productName = "lev3-mobile";
+			productReference = 3349D2F51934CCC300D14300 /* lev3-mobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3349D3181934CCC300D14300 /* lev3-mobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3349D32D1934CCC300D14300 /* Build configuration list for PBXNativeTarget "lev3-mobileTests" */;
+			buildPhases = (
+				3349D3151934CCC300D14300 /* Sources */,
+				3349D3161934CCC300D14300 /* Frameworks */,
+				3349D3171934CCC300D14300 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3349D31F1934CCC300D14300 /* PBXTargetDependency */,
+			);
+			name = "lev3-mobileTests";
+			productName = "lev3-mobileTests";
+			productReference = 3349D3191934CCC300D14300 /* lev3-mobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3349D2ED1934CCC300D14300 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = shaped.ch;
+				TargetAttributes = {
+					3349D3181934CCC300D14300 = {
+						TestTargetID = 3349D2F41934CCC300D14300;
+					};
+				};
+			};
+			buildConfigurationList = 3349D2F01934CCC300D14300 /* Build configuration list for PBXProject "lev3-mobile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3349D2EC1934CCC300D14300;
+			productRefGroup = 3349D2F61934CCC300D14300 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3349D2F41934CCC300D14300 /* lev3-mobile */,
+				3349D3181934CCC300D14300 /* lev3-mobileTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3349D2F31934CCC300D14300 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3349D30F1934CCC300D14300 /* Main_iPad.storyboard in Resources */,
+				3349D3141934CCC300D14300 /* Images.xcassets in Resources */,
+				3349D30C1934CCC300D14300 /* Main_iPhone.storyboard in Resources */,
+				3349D3031934CCC300D14300 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3349D3171934CCC300D14300 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3349D3251934CCC300D14300 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3349D2F11934CCC300D14300 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3349D3121934CCC300D14300 /* ViewController.m in Sources */,
+				3349D3091934CCC300D14300 /* AppDelegate.m in Sources */,
+				3349D3051934CCC300D14300 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3349D3151934CCC300D14300 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3349D3271934CCC300D14300 /* lev3_mobileTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3349D31F1934CCC300D14300 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3349D2F41934CCC300D14300 /* lev3-mobile */;
+			targetProxy = 3349D31E1934CCC300D14300 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3349D3011934CCC300D14300 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3349D3021934CCC300D14300 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3349D30A1934CCC300D14300 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3349D30B1934CCC300D14300 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		3349D30D1934CCC300D14300 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3349D30E1934CCC300D14300 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		3349D3231934CCC300D14300 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3349D3241934CCC300D14300 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3349D3281934CCC300D14300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3349D3291934CCC300D14300 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3349D32B1934CCC300D14300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lev3-mobile/lev3-mobile-Prefix.pch";
+				INFOPLIST_FILE = "lev3-mobile/lev3-mobile-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3349D32C1934CCC300D14300 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lev3-mobile/lev3-mobile-Prefix.pch";
+				INFOPLIST_FILE = "lev3-mobile/lev3-mobile-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3349D32E1934CCC300D14300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/lev3-mobile.app/lev3-mobile";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lev3-mobile/lev3-mobile-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "lev3-mobileTests/lev3-mobileTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3349D32F1934CCC300D14300 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/lev3-mobile.app/lev3-mobile";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lev3-mobile/lev3-mobile-Prefix.pch";
+				INFOPLIST_FILE = "lev3-mobileTests/lev3-mobileTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3349D2F01934CCC300D14300 /* Build configuration list for PBXProject "lev3-mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3349D3281934CCC300D14300 /* Debug */,
+				3349D3291934CCC300D14300 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3349D32A1934CCC300D14300 /* Build configuration list for PBXNativeTarget "lev3-mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3349D32B1934CCC300D14300 /* Debug */,
+				3349D32C1934CCC300D14300 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3349D32D1934CCC300D14300 /* Build configuration list for PBXNativeTarget "lev3-mobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3349D32E1934CCC300D14300 /* Debug */,
+				3349D32F1934CCC300D14300 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3349D2ED1934CCC300D14300 /* Project object */;
+}
