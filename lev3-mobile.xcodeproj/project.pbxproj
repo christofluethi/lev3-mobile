@@ -22,6 +22,8 @@
 		3349D31D1934CCC300D14300 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3349D2FC1934CCC300D14300 /* UIKit.framework */; };
 		3349D3251934CCC300D14300 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3349D3231934CCC300D14300 /* InfoPlist.strings */; };
 		3349D3271934CCC300D14300 /* lev3_mobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3349D3261934CCC300D14300 /* lev3_mobileTests.m */; };
+		33D6A9C61934CE1600C03935 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D6A9C41934CE1600C03935 /* Constants.m */; };
+		33D6A9CA1934D33D00C03935 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D6A9C91934D33D00C03935 /* SearchViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,10 @@
 		3349D3221934CCC300D14300 /* lev3-mobileTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "lev3-mobileTests-Info.plist"; sourceTree = "<group>"; };
 		3349D3241934CCC300D14300 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3349D3261934CCC300D14300 /* lev3_mobileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lev3_mobileTests.m; sourceTree = "<group>"; };
+		33D6A9C41934CE1600C03935 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		33D6A9C51934CE1600C03935 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		33D6A9C81934D33D00C03935 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		33D6A9C91934D33D00C03935 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +120,9 @@
 		3349D2FE1934CCC300D14300 /* lev3-mobile */ = {
 			isa = PBXGroup;
 			children = (
+				33D6A9C71934D30800C03935 /* ViewControllers */,
+				33D6A9C41934CE1600C03935 /* Constants.m */,
+				33D6A9C51934CE1600C03935 /* Constants.h */,
 				3349D3071934CCC300D14300 /* AppDelegate.h */,
 				3349D3081934CCC300D14300 /* AppDelegate.m */,
 				3349D30A1934CCC300D14300 /* Main_iPhone.storyboard */,
@@ -153,6 +162,16 @@
 				3349D3231934CCC300D14300 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		33D6A9C71934D30800C03935 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				33D6A9C81934D33D00C03935 /* SearchViewController.h */,
+				33D6A9C91934D33D00C03935 /* SearchViewController.m */,
+			);
+			name = ViewControllers;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,7 +274,9 @@
 			files = (
 				3349D3121934CCC300D14300 /* ViewController.m in Sources */,
 				3349D3091934CCC300D14300 /* AppDelegate.m in Sources */,
+				33D6A9CA1934D33D00C03935 /* SearchViewController.m in Sources */,
 				3349D3051934CCC300D14300 /* main.m in Sources */,
+				33D6A9C61934CE1600C03935 /* Constants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,6 +491,7 @@
 				3349D32C1934CCC300D14300 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3349D32D1934CCC300D14300 /* Build configuration list for PBXNativeTarget "lev3-mobileTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +500,7 @@
 				3349D32F1934CCC300D14300 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
