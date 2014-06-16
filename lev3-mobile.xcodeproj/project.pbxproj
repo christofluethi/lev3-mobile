@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33394AD3194F788800101158 /* SettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33394AD2194F788800101158 /* SettingsTableViewController.m */; };
+		33394AD6194F7DB600101158 /* ResultTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33394AD5194F7DB600101158 /* ResultTableViewController.m */; };
+		33394ADA194F838F00101158 /* ResultItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 33394AD9194F838F00101158 /* ResultItem.m */; };
+		33394ADD194F99E200101158 /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33394ADC194F99E200101158 /* ContentViewController.m */; };
 		3349D2F91934CCC300D14300 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3349D2F81934CCC300D14300 /* Foundation.framework */; };
 		3349D2FB1934CCC300D14300 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3349D2FA1934CCC300D14300 /* CoreGraphics.framework */; };
 		3349D2FD1934CCC300D14300 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3349D2FC1934CCC300D14300 /* UIKit.framework */; };
@@ -37,6 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		33394AD1194F788800101158 /* SettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsTableViewController.h; sourceTree = "<group>"; };
+		33394AD2194F788800101158 /* SettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsTableViewController.m; sourceTree = "<group>"; };
+		33394AD4194F7DB600101158 /* ResultTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultTableViewController.h; sourceTree = "<group>"; };
+		33394AD5194F7DB600101158 /* ResultTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultTableViewController.m; sourceTree = "<group>"; };
+		33394AD8194F838F00101158 /* ResultItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultItem.h; sourceTree = "<group>"; };
+		33394AD9194F838F00101158 /* ResultItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultItem.m; sourceTree = "<group>"; };
+		33394ADB194F99E200101158 /* ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
+		33394ADC194F99E200101158 /* ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
 		3349D2F51934CCC300D14300 /* lev3-mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lev3-mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3349D2F81934CCC300D14300 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3349D2FA1934CCC300D14300 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -87,6 +99,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		33394AD7194F835000101158 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				33394AD8194F838F00101158 /* ResultItem.h */,
+				33394AD9194F838F00101158 /* ResultItem.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		3349D2EC1934CCC300D14300 = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +141,7 @@
 		3349D2FE1934CCC300D14300 /* lev3-mobile */ = {
 			isa = PBXGroup;
 			children = (
+				33394AD7194F835000101158 /* Model */,
 				33D6A9C71934D30800C03935 /* ViewControllers */,
 				33D6A9C41934CE1600C03935 /* Constants.m */,
 				33D6A9C51934CE1600C03935 /* Constants.h */,
@@ -169,6 +191,12 @@
 			children = (
 				33D6A9C81934D33D00C03935 /* SearchViewController.h */,
 				33D6A9C91934D33D00C03935 /* SearchViewController.m */,
+				33394AD1194F788800101158 /* SettingsTableViewController.h */,
+				33394AD2194F788800101158 /* SettingsTableViewController.m */,
+				33394AD4194F7DB600101158 /* ResultTableViewController.h */,
+				33394AD5194F7DB600101158 /* ResultTableViewController.m */,
+				33394ADB194F99E200101158 /* ContentViewController.h */,
+				33394ADC194F99E200101158 /* ContentViewController.m */,
 			);
 			name = ViewControllers;
 			path = ..;
@@ -272,9 +300,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33394AD3194F788800101158 /* SettingsTableViewController.m in Sources */,
 				3349D3121934CCC300D14300 /* ViewController.m in Sources */,
+				33394ADD194F99E200101158 /* ContentViewController.m in Sources */,
 				3349D3091934CCC300D14300 /* AppDelegate.m in Sources */,
+				33394AD6194F7DB600101158 /* ResultTableViewController.m in Sources */,
 				33D6A9CA1934D33D00C03935 /* SearchViewController.m in Sources */,
+				33394ADA194F838F00101158 /* ResultItem.m in Sources */,
 				3349D3051934CCC300D14300 /* main.m in Sources */,
 				33D6A9C61934CE1600C03935 /* Constants.m in Sources */,
 			);

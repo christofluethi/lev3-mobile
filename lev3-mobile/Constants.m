@@ -9,7 +9,8 @@
 #import "Constants.h"
 
 // Settings
-NSString *const kSettingsUrl = @"baseUrl";
+NSString *const kSettingsApi = @"baseUrl";
+
 
 @implementation Constants
 

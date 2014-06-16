@@ -12,8 +12,9 @@
 #else
     #define DLog(...)
 #endif
+
 /* settings */
-extern NSString *const kSettingsUrl;
+extern NSString *const kSettingsApi;
 
 @interface Constants : NSObject
 
