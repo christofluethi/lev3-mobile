@@ -65,8 +65,6 @@ NSString* const RESULT_API_CALL = @"/v1/mandates/vs.mnd/documents?limit=10&field
     } else {
         [self runSearch];
     }
-
-  
 }
 
 - (void)didReceiveMemoryWarning

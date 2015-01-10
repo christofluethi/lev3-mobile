@@ -41,6 +41,7 @@
     [activity startAnimating];*/
     _webView.delegate = self;
     DLog("Content URL: %@", _contentLink);
+    // NSURL *url = [NSURL URLWithString:_contentLink];
     NSURL *url = [NSURL URLWithString:_contentLink];
     NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
     [_webView loadRequest:requestObj];
